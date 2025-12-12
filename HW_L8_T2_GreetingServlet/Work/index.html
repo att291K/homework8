@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Список дел</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Список дел</h1>
+
+<p>Новое дело
+    <label>
+        <input type="text" placeholder="Что нужно сделать ?" id="newBusiness" class="input" required/>
+    </label>
+    <button id="add">Добавить</button>
+</p>
+
+
+<div>
+    <h2>Дела</h2>
+    <ol id="list">
+
+    </ol>
+
+</div>
+<hr>
+<p>Управление делами
+    <button class="botton-button" id="chooseAll" >Выбрать все</button>
+    <button class="botton-button" id="unChooseAll" hidden="hidden">Очистить выбор</button>
+    <button class="botton-button" id="executeAll" hidden="hidden">Выполнить выбранные</button>
+    <button class="botton-button" id="delAll" hidden="hidden">Удалить выбранные</button>
+</p>
+
+</body>
+<script src="script.js"></script>
+</html>

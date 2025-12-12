@@ -1,0 +1,58 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 95%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: black;
+}
+
+h2{
+    color: black;
+}
+
+p {
+    color: black;
+    text-align: justify;
+    text-indent: 25px;
+    font-size: 16px;
+}
+
+li{
+    text-align: left;
+}
+
+.my-button{
+    background-color: green;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+.botton-button{
+    background-color: cornflowerblue;
+    color: black;
+    padding: 4px 4px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.my-checkbox{
+    padding: 8px 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 8px 8px;
+    cursor: pointer;
+}
+label{
+    font-size: 24px;
+}
